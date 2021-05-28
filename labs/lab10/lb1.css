@@ -1,0 +1,22 @@
+h2,h3,h4,h5{
+            color: blue;}
+
+table
+{
+  width:30%;
+  background-image: url(bgpic.png);
+  box-shadow: 10px -10px 5px #CCC;
+}
+
+ #demo {
+	style="color:red;
+	}
+function myfunction() {
+			document.getElementById("demo").innerHTML ="hello Javascript!";
+			}
+body {
+	bgcolor="lightgreen";
+	}
+botton {
+	type="button" onclick="myfuncion()"
+	}

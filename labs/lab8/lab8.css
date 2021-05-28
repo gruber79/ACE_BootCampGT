@@ -1,0 +1,34 @@
+/*page bkg orange and there is a martrmhjjjm,*/
+body {
+  /*background-image: url("qcc.png");*/
+  background-image: url("https://lh3.googleusercontent.com/4YpGeQRnisGQhD0AoFyo1HT-7NE3YYgJCwDK11uh6Z-AeWwxIP8lc8mggEb80C3WPt-J=s85");
+  backface-visibility:visible;
+  background-size: 15px;
+  margin: 50px;
+}
+.opc {
+  font-family: courier;
+  color: purple;
+  width: auto;
+  text-align: center;
+  text-decoration-line:underline;
+}
+
+.first {
+  font-family: courier;
+  background-color: yellow;
+  width: auto;
+  color: green;
+}
+.second {
+  font-family: Courier;
+  background-color: lightblue;
+  width: auto;
+  color: brown;
+}
+.third {
+  background-color: pink;
+  font-family: Courier;
+  width: auto;
+  color: darkgreen;
+}
