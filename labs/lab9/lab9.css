@@ -1,5 +1,5 @@
 h2,h3,h4,h5{text-align: center;
-            color: blue;}
+            color: rgb(101, 101, 233);}
 
 p {font-family: cursive;
   font-size: 22px;
@@ -7,6 +7,7 @@ p {font-family: cursive;
 
 body   {
 	background-image: url(../../wel.jpg);
+  background-attachment: fixed;
 	background-size: 100%;
         font-size: 20px;
      	}
@@ -41,4 +42,7 @@ ul {
   position: sticky;
   top: 0;
      }
- 
+pre {
+  text-align: center;
+  color:#ee0a0a;
+    } 
