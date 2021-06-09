@@ -1,12 +1,15 @@
-#Sorta Secret Advanced Challenge
+/**Sorta Secret Advanced Challenge**/
+
+function presschenge(){ 
+
 b = p = 1
 a = z = n = m = h = h1 = 0
 import time
 star = time.time()
-while a < b: #While is using to count how many attempts it took.
-    guess = int(input("How many guess are going to play"))
+
+    guess  prompt("How many guess are going to play":))
     if guess > 10:
-        print("Too High")
+    print("Too High")
         b += 1
     elif guess < 2:
         print("Too low")
@@ -22,20 +25,20 @@ print("Start the Game")
 input("Pres Enter to star")
 
 import random
-while z < guess: # again while is using to run the game for each player.   
-    dice = random.randint(1, 2)#The computer takes a number to play.
+while z < guess: /* again while is using to run the game for each player. */  
+    dice = random.randint(1, 2)/*The computer takes a number to play.*/
     print(" ")#
     print("Dice number " + str(dice))
     for x in range(roll):
-        user = random.randint(1, 2)#The computer takes a number for the player.
+        user = random.randint(1, 2)/*The computer takes a number for the player.*/
         print("ram " + str(user))
-        if user == dice:# a condition where it is compared to the winning number.  
+        if user == dice: /* a condition where it is compared to the winning number.*/  
             a += 1
         else:
             b += 1
     z += 1
     r = int(100/roll)
-    if a > b:# a condition where shows and counts the the winner 
+    if a > b: /* a condition where shows and counts the the winner */
         print("Player " + str(z) + " Your score is " + str(a*r) + "% Your win ") 
         n +=1
     elif a == b:
@@ -45,7 +48,7 @@ while z < guess: # again while is using to run the game for each player.
         print("Player " + str(z) + " Your score is " + str(a*r) + "% Your lose ") 
     m += 1
     a = b = 0
-    if z == guess:# this condition is for chenge the variable of z if cotinue the player.
+    if z == guess: /* this condition is for chenge the variable of z if cotinue the player.*/
         ask = str(input("Pres Y if you want continue to play?"))
         if ask == "y" or ask == "Y":
             roll = int(input("How many rolls are you want to play: "))
@@ -56,7 +59,7 @@ while z < guess: # again while is using to run the game for each player.
     print("  ")
     
     print("You won " + str(n) + " rolls of " + str(n + m) + " The Score is " + str(n*r))
-    if n > m:# A condition where the total calculation of the winners is shown.
+    if n > m: /* A condition where the total calculation of the winners is shown.*/
         print("The house lose")	
         h += 1
     elif n == m:
@@ -81,3 +84,4 @@ end = time.time()
 w = int(end - star)
 print("from 1 to 10 you answer was " + str(user))
 print("and the time answering was " + str(w) + " seconds")
+}
