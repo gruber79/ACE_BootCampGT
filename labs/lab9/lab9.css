@@ -6,14 +6,14 @@ p {font-family: cursive;
   color: black;}
 
 body   {
-	background-image: url(../../wel.jpg);
+	background-image: url(../../img/wel.jpg);
   background-attachment: fixed;
 	background-size: 100%;
         font-size: 20px;
      	}
 
 .topnav{
-	overflow: hidden;
+	      overflow: hidden;
         background-color: green;}
 
 .topnav a{float: left;

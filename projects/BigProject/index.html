@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BigProject GTL</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Boogaloo|Open+Sans:300,400|Oswald:700">
+  <link rel="stylesheet" href="css/main2.css">
+	<link rel="stylesheet" href="css/main1.css">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+
+<div class="content-wrapper">
+		<img src="img/Cat-logo@2x.png" class="logo" alt="Cat logo">
+		<nav>
+			<ul>
+        <li><a onclick="presschenge()" href="#" >Press</a></li>
+				<li><a href="#Catslist">Cats List</a></li>
+				<li><a href="#contact">Contact</a></li>
+        <script src="js/press-quotes.js"></script>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<div class="hero">
+	<h1>Cats Have Been living with US</h1>
+  <h1>for Centuries</h1>
+</div>
+<main role="main">
+  <div class="content-wrapper">
+	  <p id="press-quote">Cats Domesticated Themselves, Ancient DNA Shows</p>
+		<p>In a new comprehensive study of the spread of domesticated cats, DNA analysis suggests that cats lived for thousands of years alongside humans before they were domesticated. During that time, their genes have changed little. If you’re interested to know more about Cats, please <a href="#contact">contact&nbsp;us</a>.</p>
+		<h2>Ancient DNA Shows</h2>
+    <figure>
+		<img src="img/catsdna@2x.jpg" alt="Cats picture">
+		<figcaption>Cats Like People!</figcaption>
+		</figure>
+		<p>The earlier ancestors of today’s domestic cats spread from southwest Asia and into Europe as early as 4400 B.C. The cats likely started hanging around farming communities in the Fertile Crescent about 8,000 years ago, where they settled into a mutually beneficial relationship as humans’ rodent patrol.
+    <br>
+    A second lineage, consisting of African cats that dominated Egypt, spread into the Mediterranean and most of the Old World beginning around 1500 B.C. This Egyptian cat probably had behaviors that made it attractive to humans, such as sociability and tameness.
+    <br>
+    Researchers surveyed the DNA of more than 200 cats spanning the last 9,000 years, including ancient Romanian cat remains, Egyptian cat mummies, and modern African wildcat specimens. Two major cat lineages contributed to the domestic feline we know today, they report in a study published Monday in Nature Ecology & Evolution.
+    </p>
+	</div>
+</main>
+<a id="Catslist"></a>
+<div class="outer-wrapper">
+	<header class="clearfix">
+		<h1>Cat search</h1>
+		<select id="cat-list">
+			<option value="pr">Choose a Cat</option>
+			<option value="ma">Maine Coon</option>
+			<option value="br">British Shorthair</option>
+			<option value="tu">Turkish Angora</option>
+			<option value="be">Bengal</option>
+			<option value="ly">Canada lynx</option>
+			<option value="pa">Pallas</option>
+		</select>
+	</header>
+  
+	<div class="main clearfix">
+		<div class="img-holder">
+			<div>
+				<img id="info-pic" src="img/pr@2x.jpg" alt="cats" width="220" height="220">
+				<p id="info-name">Prime Cat</p>
+			</div>
+		</div>
+		<div class="info-holder">
+			<p><strong>Origen: </strong><span id="info-origen"> </span></p>
+			<p><strong>Temperament: </strong><span id="info-temperament"> </span></p>
+			<p><strong>Height: </strong><span id="info-height"> </span></p>
+			<p><strong>Length: </strong><span id="info-length"> </span></p>
+			<p><strong>Mass: </strong><span id="info-mass"> </span></p>
+			<p><strong>lifespan: </strong><span id="info-lifespan"> </span></p>
+		</div>
+	</div>
+</div>
+<div class="outer-wrapper">
+	<div class="content-wrapper">
+		<a id="post-card"></a>
+    <header>
+			<h1>Postcard Generator</h1>
+			<p class="subtitle">CATS</p>
+		</header>
+		<main role="main">
+			<div class="first step">
+				<h2>1. Choose a Cat</h2>
+				<select name="cat" id="cat">
+					<option selected disabled value="empty-cat">astronaut cat</option>
+				  <option value="ma">Maine Coon</option>
+			    <option value="br">British Shorthair</option>
+			    <option value="tu">Turkish Angora</option>
+			    <option value="be">Bengal</option>
+			    <option value="ly">Canada lynx</option>
+			    <option value="pa">Pallas</option>
+				</select>
+			</div>
+			<div class="second step">
+				<h2>2. Enjoy Your Postcard!</h2>
+				<div id="postcard">	
+          <p id="greeting">To Generate a Postcard</p>
+				  <p id="cat-heading">Choose a Cat</p>								
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
+<script src="js/cat-data1.js"></script>
+<script src="js/change-function-code.js"></script>
+<footer>
+	<p>Copyright © ACE Upskilling_ Software Engineering Micro-Credential Boot Camp</p>
+</footer>
+
+<script ></script>
+
+<a id="contact"></a>
+<div class="container">
+	<h1>If a kitten needs help contact us.</h1>
+	<p>Thank you so much for Helping! Please fill out the contact form below to connect to the cats rescue near to your home.</p>
+	<div class="form-container">
+		<form id="vol-form">
+			<div class="form-section">
+				<label for="first-name">First Name:</label>
+				<input id="first-name" name="first-name" type="text">
+			</div>
+			<div class="form-section">
+				<label for="last-name">Last Name:</label>
+				<input id="last-name" name="last-name" type="text">
+			</div>
+			<div class="form-section">
+				<label for="email">Email:</label>
+				<input id="email" name="email" type="email">
+			</div>
+			<div class="form-section">
+				<label for="phone">Phone:</label>
+				<input id="phone" name="phone" type="tel">
+			</div>
+			<div class="form-section">
+				<label for="prev-vol">Address:</label>
+				<input id="prev-vol" name="prev-vol" type="text">
+			</div>
+			<div class="form-section">
+				<label for="from-city" class="from-label">City</label>
+				<select id="from-year" name="from-year">
+					<option value="blank"></option>
+					<option value="1">Queens</option>
+					<option value="2">Broklyn</option>
+					<option value="3">Bronx</option>
+					<option value="4">Manhattan</option>
+					<option value="5">Staten Island</option>
+					<option value="6">Long Island</option>
+			</div>
+			<input id="submit" type="submit" value="Submit">      
+		</form>
+	</div>
+</div>
+<footer>
+	<p>Made in NY <br>Copyright © Postcard Generator</p>
+</footer>
+<script src="js/post-card.js"></script>
+</body>
+</html>
