@@ -8,18 +8,19 @@ body {
       align-items:center;
       width: 100%;
       min-height: 100%;
-      position: absolute;
+      position:fixed;
 }
 
 h1 {
-  width: 80%;
-  max-width: 100%;
+  width: 100%;
+  max-width:100%;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 40px;
+  
 }
 
 button {
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px 10px;
     margin-top: 40px;
     border: 0; 
