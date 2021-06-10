@@ -46,3 +46,19 @@ button:hover {
 .fade-animation {
     animation: fade .5s;
 }
+#fortune{
+  border: 10px;
+  border-color: white;
+  border-style:  groove;
+  width: 300px; 
+  margin-left: 40% ;  
+  
+}
+#val{
+    font-size:  medium;
+    color:rgb(35, 13, 226);
+    background-color:  dimgrey;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-style:   ridge;
+    border-width: 5px; 
+}
