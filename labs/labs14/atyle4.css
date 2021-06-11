@@ -1,0 +1,29 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 10;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;  
+}
+.header {
+  background-color: #5534ca;
+  padding: 20px;
+  text-align: center;
+} 
+.topnav {
+  overflow: hidden;
+  background-color: rgb(160, 85, 24);
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: rgb(54, 150, 105);
+  color: rgb(82, 16, 16);
+}
