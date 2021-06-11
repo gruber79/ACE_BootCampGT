@@ -1,64 +1,36 @@
 body {
-      background-image: url("fortune.png");
-      color: rgb(218, 60, 60);
-      text-align: center;    
-      display: flex;
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
-      width: 100%;
-      min-height: 100%;
-      position:fixed;
-}
+            background-image: url("fortune.png");
+            background-color: #000;
+            color: rgb(153, 66, 66);
+            text-align: center;    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 100%;
+            position: absolute;
+        }
 
 h1 {
-  width: 100%;
-  max-width:100%;
-  font-weight: normal;
-  font-size: 40px;
-  
-}
+            width: 100%;
+            max-width: 600px;
+            font-weight: normal;
+            font-size: 52px;
+          
+        }
 
 button {
-    font-size: 20px;
-    padding: 5px 10px;
-    margin-top: 40px;
-    border: 0; 
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
-    transition: transform .3s;
-}
-
+            border-bottom-color:  rgb(204, 95, 95);
+            font-size: 15px;
+            padding: 5px 10px;
+            margin-top: 40px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 2px 2px 12px rgba(133, 25, 25, 0.2);
+            transition: transform .3s;
+        }
 button:hover {
             transform: scale(1.125);
-} 
-
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.fade-animation {
-    animation: fade .5s;
-}
-#fortune{
-  border: 10px;
-  border-color: white;
-  border-style:  groove;
-  width: 300px; 
-  margin-left: 40% ;  
-  
-}
-#val{
-    font-size:  medium;
-    color:rgb(35, 13, 226);
-    background-color:  dimgrey;
-    font-family:  Verdana, Geneva, Tahoma, sans-serif;
-    border-bottom-style:   ridge;
-    border-width: 5px; 
-}
+        }

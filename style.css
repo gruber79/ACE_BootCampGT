@@ -1,4 +1,4 @@
-	body {
+body {
 		background-image: url("https://images8.alphacoders.com/394/thumb-1920-394981.jpg");
     background-attachment: fixed;
 		backface-visibility: visible;
@@ -6,15 +6,19 @@
 		background-size: 100%;
 		margin: 25px;
 		text-align: center;
-    color:rgb(21, 177, 47);
+    color:rgb(11, 238, 75);
 
-	}
+}
 
-	pre {
-	    text-align: left;
-   
-	}
+pre {
+    text-align: left;
+}
 
-	a {
-		color: whitesmoke;
-	}
+
+th{
+  text-align: left;
+  color: rgb(225, 150, 65);
+}
+a{
+  color: antiquewhite;
+}
