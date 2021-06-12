@@ -13,3 +13,19 @@ button{
   background-color:  rgb(176, 179, 176);
   margin: 2px;
 }
+table{
+  margin: auto; 
+  text-align: left;
+  background-color: white;
+}
+th{
+  background-color:  rgb(77, 121, 172);
+}
+#access,#tools,
+#access1,#tools1
+#access2,#tools2, 
+#access3,#tools3,
+#access4, #tools, input {
+  width: 25px;
+ 
+}

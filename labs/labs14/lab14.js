@@ -1,16 +1,10 @@
-function change() {
-  document.getElementById('pop').innerHtml='Hey Band!! How are you?';
-}     
-function cssChange() {
-  document.getElementById(;'sty').innerHtml= '<link rel="stylesheet" type="text/css" href="style1.css">';
+function  cash_register(){
+  var edad,birth;
+  var birth = document.getElementById("text").value;
+  var edad = (z - birth);
+  if (birth > 1900){
+    document.getElementById("val").innerHTML = '<big>I will be ' + (edad+4) + ' or ' + (edad+5) + ' years old in july <strong>' + (z+5) + '</strong></big>';
+    document.getElementById("valo").innerHTML = '';   
+}
+}
 
-}
-function cssChange1() {
-  document.getElementById('sty').innerHtml='<link rel="stylesheet" type="text/css" href="style2.css">';
-}
-function cssChange2() {
-  document.getElementById('sty').innerHtml='<link rel="stylesheet" type="text/css" href="style3.css">';
-}
-function cssChange3() {
-  document.getElementById('sty').innerHtml='<link rel="stylesheet" type="text/css" href="style4.css">';
-}
