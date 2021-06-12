@@ -1,10 +1,16 @@
 function  cash_register(){
-  var edad,birth;
-  var birth = document.getElementById("text").value;
-  var edad = (z - birth);
-  if (birth > 1900){
-    document.getElementById("val").innerHTML = '<big>I will be ' + (edad+4) + ' or ' + (edad+5) + ' years old in july <strong>' + (z+5) + '</strong></big>';
-    document.getElementById("valo").innerHTML = '';   
-}
+  var a,b,c,d,e,f,g,h,i;
+  a = document.getElementById("text").value;
+  b = document.getElementById("text1").value;
+  c = document.getElementById("text2").value;
+  d = document.getElementById("text3").value;
+  f = document.getElementById("text4").value;
+  g = document.getElementById("text5").value;
+  h = document.getElementById("text6").value;
+  i = document.getElementById("text7").value;
+  a = (a*145);  b = (b*45);  c = (c*25);  d = (d*5);
+  f = (f*8);   g = (g*4);   h = (h*115);  i = (i*15);
+  value = (a+b+c+d+f+g+h+i);
+  document.getElementById("val").innerHTML = 'The total price of the shopping cart is: <big>' + value + '</big>';
 }
 

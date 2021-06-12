@@ -4,10 +4,11 @@
 <title>Lab 14 GTL:</title>
   <link href="../img/favicon.jpg" rel="icon" type="image/jpg"/>
   <link href="lab14.css" rel="stylesheet" type="text/css"/> 
-  <script src="index14.js"></script>
+  
 </head>
 <body> 
-  <h1>Electric Tools Store</h1>
+  <h1>Electric Tools Store</h1>  
+  <h4 id="val">In each box enter the amount of tools and accessories you need and then press "Submit"</h4>
   <table border="5">
     <th>Tools </th>
     <th>Price </th>
@@ -19,41 +20,40 @@
     <tr>
       <td>Drill</td>
       <td>$ 145</td>
-      <td><input select="" id="tools1" name="tools1" value=""></td>
+      <td><input select="" id="text" name="tools1" value=""></td>
       <td>Bit kit</td>
       <td>$ 45</td>
-      <td><input id="access1" name="access1" value=""></td>
+      <td><input id="text1" name="access1" value=""></td>
     </tr>
 
     <tr>
       <td>Hammer</td>
       <td>$ 25</td>
-      <td><input id="tools2" name="tools2" value=""></td>
+      <td><input id="text2" name="tools2" value=""></td>
       <td>pack nails</td>
       <td>$ 5</td>
-      <td><input id="access2" name="access2" value=""></td>
+      <td><input id="text3" name="access2" value=""></td>
     </tr>
     
     <tr>
       <td>Screwdriver</td>
       <td>$ 8</td>
-      <td><input id="tools3" name="tools3" value=""></td>
+      <td><input id="text4" name="tools3" value=""></td>
       <td>crew</td>
       <td>$ 4</td>
-      <td><input id="access3" name="access3" value=""></td>
+      <td><input id="text5" name="access3" value=""></td>
     </tr>
 
     <tr>
       <td>Pole_Saws</td>
       <td>$ 115</td>
-      <td><input id="tools4" name="tools4" value=""></td>
+      <td><input id="text6" name="tools4" value=""></td>
       <td>Chainsaw</td>
       <td>$ 15 </td>
-      <td><input id="access4" name="access4" value=""></td>
+      <td><input id="text7" name="access4" value=""></td>
     </tr>
   </table>
-
-  <a id="val"></a>
-  <h2 id="valo"><button onclick="cash_register()">Submit</button></h2><br><br>
+  <script src="lab14.js"></script>
+  <button onclick="cash_register()">Submit</button>
 </body>
 </html>  
