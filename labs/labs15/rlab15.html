@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lab 15 GTL:</title>
+  <link href="../img/favicon.jpg" rel="icon" type="image/jpg"/>
+  <link href="lab15.css" rel="stylesheet" type="text/css"/> 
+  
+</head>
+<body>
+	<ul>
+  		<li id="homepageimage" ><img src="../img/mysite.png" width="135" style="padding: 10px 10px"id="topImage"> </li>
+  		<li><p style="letter-spacing: 10px" class="titlehomepage">Lab #4 - Ninja</p></li>
+		<li>
+		
+		</li>
+	</ul>
+<center>
+<div id="Info">
+	<p style="font-size: 20px">Name: Elrudo</p>
+<img src="http://vignette3.wikia.nocookie.net/finalfantasy2/images/a/a8/CG_Render_Edge_Geraldine_FFIV_The_After_Years.jpg/revision/latest?cb=20111124205814&path-prefix=de"><br><br>
+		<button type="button" onclick="ninja.punch();">PUNCH!</button>
+		<button onclick="ninja.kick();">KICK</button>
+		<button onclick="ninja.Dodge();">Dodge</button><br>
+		<p id="actionText">Click On The Buttons!</p>
+		<audio src="OOF.mp3" preload="auto" id="OOF"></audio>
+		<audio src="Swoosh.mp3" preload="auto" id="swoosh"></audio>
+</div>
+	</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	//THIS JQUERY FUNCTION ALLOWS THE LOGO IMAGE TO TAKE YOU BACK TO THE MAIN INDEX
+	$(document).ready(function(){
+		$("#homepageimage").click(function(){
+			var img = $("#topImage");
+			img.animate({ width: '115px', padding: '20px 20px' }, 250);
+			img.animate({ width: '135px', padding: '10px 10px' }, 250);
+			location.href = "http://techteach.us/Web2019/Mmatthew/WCP_MM/";
+			});
+	});
+</script>
+<script src="Lab4js.js"></script>
+
+</body>
+</html>
