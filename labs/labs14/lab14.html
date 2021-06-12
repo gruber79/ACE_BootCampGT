@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale">
     <div id="sty">
       <link rel="stylesheet" type="text/css" href="style.css">
-    </div>
-     <script src="lab14,js"></script>
+    </div>     
   </head>  
   <body>
     <div class="header">
       <h1>My Super Dooper Wepsite</h1>
       <p>SOME OF MY BEST WORK!!!.</P>
-      <button id="ch" onclick="cssChange()">Click Here to Style 1 change</button>
+      <button onclick="cssChange()">Click Here to Style 1 change</button>
       <button onclick="cssChange1()">Click Here to Style 1 change</button>
       <button onclick="cssChange2()">Click Here to Style 1 change</button>
       <button onclick="cssChange3()">Click Here to Style 1 change</button>
@@ -27,18 +26,32 @@
     <div class="row">
       <div class="column">
         <h2>HTML</h2>
-        <div id="opi">
-        <P id="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus. <i class="glyphicon glyphicon-bullhorn"></i>Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. <i class="material-icon">buil visibility face</i>Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</P>
-        </div>
-            
+        <div id="opi">        
+        <P id="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus. <i class="glyphicon"></i>Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. <i class="icon">buil visibility face</i>Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</P>     
+        </div>    
+      <div class="column"> 
+        <h2>CSS</h2>
+        <div>
+          <form id="infData">           
+          First Name: <input type="text" id="myText" value=""><br>
+          Last Name: <input type="text" id="myText1" value=""><br>
+          Phone #: <input type="text" id="myText2" value=""><br>
+          Address: <input type="text" id="myText3" value=""><br>  
+          <button onclick="changen()">Submit</button>    
+          </form>  
+        <div>
+      </div>   
       <div class="column"> 
         <h2>JavaScript</h2>
-        <P id='pop'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus.</P>
-        <button id="change" onclick="pop">Click Here to see JS in action</button>
+        <P id="pop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus.</P>
+        <button onclick="changen()">Click Here to see JS in action</button>
+        <script>
+          function.changen() {
+          document.getElementById("pop").innerHTML = 'Hey Band!! How are you?';
+          };   
+        </script>
       </div>
       </div>       
     </div>  
   </body>
 </html>
-
-

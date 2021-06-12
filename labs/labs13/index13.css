@@ -1,0 +1,14 @@
+body{
+  text-align:  center;
+  background-color:  beige;
+}
+h1{
+  font-size: 200%;
+  background-color:  darkseagreen;
+}
+button{
+  text-align:  right;
+  color:  rgb(242, 245, 105);
+  background-color:  rgb(176, 179, 176);
+  margin: 2px;
+}

@@ -1,5 +1,5 @@
 function change() {
-  document.getElementById('pod').innerHtml="Hey Band!! How are you?";
+  document.getElementById('pop').innerHtml='Hey Band!! How are you?';
 }     
 function cssChange() {
   document.getElementById(;'sty').innerHtml= '<link rel="stylesheet" type="text/css" href="style1.css">';
