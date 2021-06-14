@@ -1,3 +1,11 @@
+:root {
+  --s1: style.css;
+  --s2: style.css1;
+  --s3: style.css2;
+  --s4: style.css3;
+  
+}
+
 
 * {
   box-sizing: border-box;
@@ -31,5 +39,8 @@ body {
   float: left;
   width: 33.33%;
   padding: 10px;
+}
+div{
+  display: block;
 }
 

@@ -1,10 +1,18 @@
+:root {
+  --s1: style1.css;
+  --s2: style2.css;
+  --s3: style3.css;
+  --s4: style4.css;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 10;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;  
-}
+body{margin: 3px ;
+     padding: 10px;
+     overflow: scroll;}
 .header {
   background-color: #db0f0f;
   padding: 20px;

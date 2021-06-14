@@ -12,5 +12,6 @@ function cash_register() {
   
   var x = (a*145)+(b*45)+(c*25)+(d*5)+(e*8)+(f*4)+(g*115)+(h*15);
 
-    document.getElementById("val").innerHTML = x;
+    document.getElementById("val").innerHTML = 'The total price of the shopping cart is:<big> $' + x + '<big>';
+    
 }

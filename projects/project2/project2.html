@@ -1,45 +1,69 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head lang="en">
+<head>
     <title>Project 2</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale">
-    <div id="sty"><link rel="stylesheet" type="text/css" href="style.css"></link>
-    </div> 
-    <script src="fortu.js"></script> 
-  </head>  
-  <body>
+    <meta name="viewport">
+    <div id="sty">
+	<link rel="stylesheet" href="Lab10.css">
+    <link rel="stylesheet" type="text/css" href="style.css" ></div>
+
+</head>  
+<body>
     <div class="header">
       <h1>My Super Dooper Website</h1>
       <p>SOME OF MY BEST WORK!!!.</P>
-      <button onclick="cssChange()">Click Here to Style 1 change</button>
-      <button onclick="cssChange1()">Click Here to Style 2 change</button>
-      <button onclick="cssChange2()">Click Here to Style 3 change</button>
-      <button onclick="cssChange3()">Click Here to Style 4 change</button>     
+    <button id="ch" onclick="cssChange()"> Click HERE  to Style 1 change</button>
+    <button id="ch1" onclick="cssChange1()"> Click HERE  to Style 2 change</button>
+    <button id="ch0" onclick="cssChange2()"> Click HERE  to Style 3 change</button>
+    <button id="ch3" onclick="cssChange3()"> Click HERE  to Style 4 change</button>   
     </div>
     <div class="topnav"> 
-      <a href="http://cnn.com">CNN</a>
-      <a href="http://w3schools.com">W3Schools</a>
-      <a href="http://taechs.org">THE BEST HS EARTH</a>
+      <a href="https://www.cnn.com">CNN</a>
+      <a href="https://www.w3schools.com">W3Schools</a>
+      <a href="#">THE BEST HS EARTH</a>
     </div> 
-      <div class="column">
+    <div class="column">
         <h2>HTML</h2>     
-        <P id="demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus.Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.buil visibility faceInciderint efficiantur his ad. Eum no molestiae voluptatibus.</P>     
-      </div>    
-      <div class="column"> 
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus.Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.buil visibility faceInciderint efficiantur his ad. Eum no molestiae voluptatibus.</P>     
+    </div>    
+    <div class="column"> 
         <h2>CSS</h2>
           <form id="infData">           
             First Name: <input type="text" id="myText" value=""><br>
-            Last Name: <input type="text" id="myText1" value=""><br>
-            Phone #: <input type="text" id="myText2" value=""><br>
-            Address: <input type="text" id="myText3" value=""><br>
-            <a id="valer"><button onclick="myFunction()">Try it</button></a>     
+            Last Name: <input type="text1" id="myText1" value=""><br>
+            Phone #: <input type="text2" id="myText2" value=""><br>
+            Address: <input type="text3" id="myText3" value=""><br>
+            <a><button onclick="myFunction()">Submit</button></a>     
           </form>  
-      </div>   
-      <div class="column"> 
+    </div>   
+    <div class="column"> 
         <h2>JavaScript</h2>
         <P id="pop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus.</P>
-        <a id="valer"><button onclick="changen()">Click Here to see JS in action</button></a>
-      </div>      
-  </body>
+        <button onclick="changen()">Click Here to see JS in action</button>
+    </div> 
+    <script>
+function myFunction() {
+  var x, y, fut;
+  var x = document.getElementById("myText").value;
+  var y = document.getElementById("myText1").value;
+  var fut = 'Hello '+ '  ' + x + '  ' + y + ' nice to meet you.';
+   document.getElementById("infData").innerHTML = fut;
+}
+function changen() {
+  document.getElementById("pop").innerHTML = 'Hey Band!! How are you?';
+}
+function cssChange() {
+  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style1.css"/>';
+}
+function cssChange0() {
+  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style2.css"/>';
+}
+function cssChange1() {
+  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style3.css"/>';
+}
+function cssChange3() {
+  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style4.css"/>';
+}  </script>
+</body>
 </html>
