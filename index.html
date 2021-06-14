@@ -1,80 +1,58 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>version 4</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="labs/img/favicon.jpg" rel="icon" type="image/jpg">
+	<title>MY Profolio</title>
+	<link href="style.css" rel="stylesheet" type="text/css" /></link>
+  <link href="navBar/overlay.css" rel="stylesheet" type="text/css" /></link>
+	<link href="labs/img/favicon.jpg" rel="icon" type="image/jpg" /></link>
+  <script src="navBar/overlay.js"></script
 </head>
+
 <body>
-<h1><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Hopper-Cool.png" width="50px"> QCC / CUNY<img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/rocketship.png" width="50px"></h1>  
-<ul>
-  <li><img src="img/icon.jpg" height="45px"></img></li>
-  <li><a href="projects/BigProject/index.html">Web Development</a></li>
-  <li><a href="projects/BigProject/index.html">Home</a></li>
-  <li><a href="projects/BigProject/index.html">About</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Labs</a>
-    <div class="dropdown-content">
-      <a href="labs/lab1/index1.html">Lab1</a>
-	    <a href="labs/lab2/index2.html">lab2</a>
+<h1>Welcome To My Portfolio</h1>
+<div class="navebar">	
+    <img src="img/icon.jpg" height="45">
+    <a href="https://www.qcc.cuny.edu/cewd-wdp/index.html">Web Development</a>      
+    <a href="navBar/goal.html">Goal</a>      
+    <div class="dropdown">
+      <button class="dropbtn">Project 
+      <i class="fa fa-caret-down"></i>
+      </button>
+        <div class="dropdown-content">
+         <a href="projects/BigProject/index.html"><strong>Hacked Website </strong></a> 
+          <a href="projects/project1/project1.html">Best Movies</a>      
+          <a href="projects/khanexample/khan.html">Recipe Book</a> 
+          <a href="labs20/lab14.html">Hacked Website</a>    
+        </div>
+    </div>
+    <a><span onclick="openNav()">Labs</span></a>
+    <a href="navBar/contact.html">Contact</a> 
+</div> 
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+      <big><a href="labs/lab1/index1.html">Lab1</a>
+	    <a href="labs/lab2/index2.html">Lab2</a>
       <a href="labs/lab3/index3.html">Lab3</a>
-	    <a href="labs/lab4/index4.html">lab4</a>
-      <a href="labs/lab5/index5.html">lab5</a>
-      <a href="labs/lab6/index6.html">lab6</a>
-      <a href="labs/lab7/index7.html">lab7</a>
-	    <a href="labs/lab8/index8.html">lab8</a>
+	    <a href="labs/lab4/index4.html">Lab4</a>
+      <a href="labs/lab5/index5.html">Lab5</a>
+      <a href="labs/lab6/index6.html">Lab6</a>
+      <a href="labs/lab7/index7.html">Lab7</a>
+	    <a href="labs/lab8/index8.html">Lab8</a><br><br>
       <a href="labs/lab9/lab9.html">Lab9</a>
-	    <a href="labs/labs10/lb10.html">lab10</a>
-      <a href="labs/labs11/fortune.html">lab11</a>	       
-      <a href="labs/labs12/lab12.html">lab12</a>
-      <a href="labs/labs13/index13.html">lab13</a>
-      <a href="labs/labs14/lab14.html">lab14</a>
-      <a href="labs/labs15/lab15.html">lab15</a>
-      <a href="labs/labs16/index16.html">lab16</a> 
-    </div>
-  </li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Project</a>
-    <div class="dropdown-content">
-      <a href="projects/BigProject/index.html"><strong>BigProject </strong></a> 
-      <a href="projects/project1/project1.html"> Project 1</a>      
-      <a href="projects/khanexample/khan.html"> Khan</a>
-      <a href="projects/projectV4/version4.html"> Version#4</a>  
-      <a href="labs20/lab14.html">lab20</a>   
-    </div>
-  </li>
-</ul>     
-<h2>Galo Tobar</h2>
-<h2>Web client developer</h2>			
-<table>
-<ul>
-	<td>
-		<div id="del"><h1>About Me </h1>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element'sYou can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element'sYou can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's</div>
-       </td>
-	<td>
-	<div><h1>About the Site</h1>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element'sYou can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element'sYou can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element'sYou can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's</div>
-	</td>
-</ul>
-</table>
-     
-<br>  
-    <form>       
-      First Name: <input type="text" id="myText" value=""><br>
-      Last Name: <input type="text" id="myText1" value=""><br>
-      Phone #: <input type="text" id="myText2" value=""><br>
-      Address: <input type="text" id="myText3" value=""><br>  
-      <button onclick="changen()">Submit</button>    
-    </form> 
-  </div>  
-<br> 
-<pre>
- by Galo Tobar 
- Boot Camp
- Index Home
- 05/13/2021
-</pre>
+	    <a href="labs/labs10/lb10.html">Lab10</a>
+      <a href="labs/labs11/fortune.html">Lab11</a>	       
+      <a href="labs/labs12/lab12.html">Lab12</a>
+      <a href="labs/labs13/index13.html">Lab13</a>
+      <a href="labs/labs14/lab14.html">Lab14</a>
+      <a href="labs/labs15/lab15.html">Lab15</a>
+      <a href="labs/labs16/index16.html">Lab16</a></big>
+  </div>
+</div>
+<h2>Galo E Tobar<br>
+ Ing. Web developer</h2>  
 </body>
 </html>
