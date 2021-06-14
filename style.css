@@ -1,20 +1,23 @@
 * {
   box-sizing: border-box;
 }
-body {
+body, html {
+  height: 100%;
+  margin: 0;
   background-image: url("img/newpic.jpg");
-  background-size: 100%;
-  background-color:  rgb(180, 216, 218);  
-  color: rgb(54, 140, 238);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 .container {
   position: absolute;
   margin: 20px;
-  width: auto;
+  width:  auto;
 }     
 .navebar {
-  overflow:  visible;
+  overflow:  hidden;
+  width:auto;
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -37,7 +40,7 @@ body {
   font-size: 20px;  
   border: none;
   outline: none;
-  color: white;
+  color: rgb(240, 235, 235);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -74,11 +77,16 @@ body {
   display: block;
 }
 h2 {
-  color:rgb(155, 52, 52);
+  display: inline; 
+  text-align:  right;
+  text-shadow: 1px 1px 3px rgb(25, 216, 57);
+  font-family:  cursive;
 }
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+p.max {
+  font-size: 60px;
+  margin-top: 15%;
+  text-shadow: 1px 1px 8px rgb(163, 62, 62);
+}
+img {
+  border-radius: 50%;
 }
