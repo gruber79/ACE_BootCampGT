@@ -6,49 +6,7 @@ body{
 /* CSS Document */
 body{
 	margin:0;
-	background-image: url(../../Index/FFBE_Argus_Plains_BG.png)
-}
-
-ul {
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(24,24,24,0.86);
-    position: fixed;
-    top: 0;
-    width: 100%;
-	z-index: 1;
-	
-}
-
-li {
-    float: left;
-}
-
-li p {
-    display: block;
-    color: white;
-    text-align: center;
-    padding-left: 20px;
-    text-decoration: none;
-	font-family: "Helvetica";
-	font-size: 50px;
-	
-}
-#infoTable{
-width: 50%;
-background-color: aliceblue;		
-	
-}
-#somethin {
-position: absolute;
-top: 180px;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
+	background-image: url(../../Index/FFBE_Argus_Plains_BG.png);
 }
 #Info{
 position: absolute;

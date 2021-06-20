@@ -1,22 +1,22 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <title>Project 2</title>
-    <meta charset="utf-8">
-    <meta name="viewport">
-    <div id="sty">
-	<link rel="stylesheet" href="Lab10.css">
-    <link rel="stylesheet" type="text/css" href="style.css" ></div>
 
-</head>  
+<head>
+	<title>Project 2</title>
+	<meta charset="utf-8">
+	<meta name="viewport">
+  <link id="theme" rel="stylesheet" type="text/css" href="style.css" />
+</head>
 <body>
-    <div class="header">
-      <h1>My Super Dooper Website</h1>
-      <p>SOME OF MY BEST WORK!!!.</P>
-    <button id="ch" onclick="cssChange()"> Click HERE  to Style 1 change</button>
-    <button id="ch1" onclick="cssChange1()"> Click HERE  to Style 2 change</button>
-    <button id="ch0" onclick="cssChange2()"> Click HERE  to Style 3 change</button>
-    <button id="ch3" onclick="cssChange3()"> Click HERE  to Style 4 change</button>   
+  <script src="fortu.js"></script>
+	<div class="header">
+		<h1>My Super Dooper Website</h1>
+		<p>SOME OF MY BEST WORK!!!.</P>
+		<button onclick="toggleTheme('style1.css')"> Click HERE  to Style 1 change</button>
+    <button onclick="toggleTheme('style2.css')"> Click HERE  to Style 2 change</button>
+    <button onclick="toggleTheme('style3.css')"> Click HERE  to Style 3 change</button>
+    <button onclick="toggleTheme('style4.css')"> Click HERE  to Style 4 change</button><br><br>
+    <button onclick="toggleTheme('style.css')"> Click HERE  to Original Style</button>   
     </div>
     <div class="topnav"> 
       <a href="https://www.cnn.com">CNN</a>
@@ -42,28 +42,6 @@
         <P id="pop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor pulvinar. Phasellus varius nulla et nulla aliquet, et sodales eros luctus. Vivamus consequat sapien sit amet mi ornare elementum. Pellentesque tempor elit in justo euismod pulvinar. Duis vitae dapibus leo. Pellentesque nec mattis arcu. Suspendisse viverra lobortis metus.</P>
         <button onclick="changen()">Click Here to see JS in action</button>
     </div> 
-    <script>
-function myFunction() {
-  var x, y, fut;
-  var x = document.getElementById("myText").value;
-  var y = document.getElementById("myText1").value;
-  var fut = 'Hello '+ '  ' + x + '  ' + y + ' nice to meet you.';
-   document.getElementById("infData").innerHTML = fut;
-}
-function changen() {
-  document.getElementById("pop").innerHTML = 'Hey Band!! How are you?';
-}
-function cssChange() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style1.css"/>';
-}
-function cssChange0() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style2.css"/>';
-}
-function cssChange1() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style3.css"/>';
-}
-function cssChange3() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style4.css"/>';
-}  </script>
+<script>
 </body>
 </html>

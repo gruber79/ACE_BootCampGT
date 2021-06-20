@@ -1,24 +1,19 @@
-:root {
-  --s1: style1.css;
-  --s2: style2.css;
-  --s3: style3.css;
-  --s4: style4.css;
-}
-
 * {
   box-sizing: border-box;
 }
 body{margin: 3px ;
      padding: 10px;
-     overflow: scroll;}
+     overflow: scroll;
+     background-color:   rgb(75, 75, 131);
+     }
 .header {
-  background-color: #5b35e6;
+  background-color: #5b47a1;
   padding: 20px;
   text-align: center;
 } 
 .topnav {
   overflow: hidden;
-  background-color: rgb(28, 219, 44);
+  background-color: rgb(64, 139, 70);
 }
 .topnav a {
   float: left;
@@ -29,6 +24,14 @@ body{margin: 3px ;
   text-decoration: none;
 }
 .topnav a:hover {
-  background-color: rgb(88, 67, 67);
-  color: rgb(85, 74, 74);
+  background-color: rgb(117, 74, 74);
+  color: rgb(114, 80, 80);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+div{
+  display: block;
 }

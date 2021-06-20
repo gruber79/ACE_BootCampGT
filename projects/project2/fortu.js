@@ -9,15 +9,10 @@ function myFunction() {
 function changen() {
   document.getElementById("pop").innerHTML = 'Hey Band!! How are you?';
 }
-function cssChange() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style1.css"/>';
+
+function toggleTheme(value) {
+
+var sheets = document.getElementsByTagName('link');
+  
+sheets[0].href = value;
 }
-function cssChange1() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style2.css"/>';
-}
-function cssChange2() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style3.css"/>';
-}
-function cssChange3() {
-  document.getElementById("stud").innerHtml = '<link rel="stylesheet" type="text/css" href="style4.css"/>';
-} 

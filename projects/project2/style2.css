@@ -1,16 +1,11 @@
-:root {
-  --s1: style1.css;
-  --s2: style2.css;
-  --s3: style3.css;
-  --s4: style4.css;
-}
-
 * {
   box-sizing: border-box;
 }
 body{margin: 3px ;
      padding: 10px;
-     overflow: scroll;}
+     overflow: scroll;
+     background-color:   #c05c7d;
+     }
 .header {
   background-color: #c05c7d;
   padding: 20px;
@@ -31,4 +26,12 @@ body{margin: 3px ;
 .topnav a:hover {
   background-color: rgb(197, 123, 26);
   color: rgb(211, 119, 119);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+div{
+  display: block;
 }
