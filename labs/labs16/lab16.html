@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Lab 16 GTL</title>
-<link rel="stylesheet" href="lab15.css"></link>
-<link rel="stylesheet" href="lab15.js"></link>
-
+<title>Lab 16</title>
+<link rel="stylesheet" type="text/css" href="lab16.css"/>
 </head>
-<body>
-<button id="go">Go</button>
-<button id="go">stop</button>
-<button id="go">Back</button>
-<div class"go">block</button><div>
-
-
+<body onload="startGame()">
+  <center>
+  <script src="lab16.js"></script>
+<div style="text-align:center;width:480px;">
+  <button onclick="moveup()">UP</button><br><br>
+  <button onclick="moveleft()">LEFT</button>
+  <button onclick="moveright()">RIGHT</button><br><br>
+  <button onclick="movedown()">DOWN</button>
+</div>
+<p>If you click a button the red square will start moving.<br> Click the same button many times, and it will move faster and faster.</p>
+</center>
 </body>
 </html>
