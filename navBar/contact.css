@@ -4,7 +4,7 @@ body {
     background-image: url("../img/webdevelop.jpg");
 	  backface-visibility: visible ;
 	  background-blend-mode: soft-light;
-	  background-size: 100%;
+	  background-size: cover;
     font-family: Arial, Helvetica, sans-serif; 
     text-align:center;
 }
@@ -18,7 +18,7 @@ input[type=text], select, textarea, i{
   margin-bottom: 16px;
   resize: vertical;
 }
-i, 
+i,
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -32,10 +32,10 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+.containers {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 10px;
   margin-inline-end: 65%;
   margin-inline-start: 10%;
 }
@@ -43,3 +43,10 @@ h1{
   color: mediumaquamarine;
   
   }
+@media screen and (max-width: 600px) {
+  /* Place the containers to the left */
+  .containers {
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+  }
+}
