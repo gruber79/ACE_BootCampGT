@@ -12,12 +12,12 @@ body, html {
 }
 .container {
   position: absolute;
-  margin: 20px;
+  margin: 50px;
   width:  auto;
 }     
 .navebar {
   overflow:  hidden;
-  width:auto;
+  width: auto;
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -79,13 +79,13 @@ body, html {
 h2 {
   display: inline; 
   text-align:  right;
-  text-shadow: 1px 1px 3px rgb(25, 216, 57);
+  text-shadow: 1px 1px 2px rgb(11, 230, 211);
   font-family:  cursive;
 }
 p.max {
-  font-size: 60px;
-  margin-top: 15%;
-  text-shadow: 1px 1px 8px rgb(163, 62, 62);
+  font-size: 30px;
+  margin-top: 18%;
+  text-shadow: 1px 1px 8px rgb(177, 88, 53);
 }
 img {
   border-radius: 50%;
