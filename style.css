@@ -30,6 +30,30 @@ body, html {
   padding: 14px 16px;
   text-decoration: none;
 }
+.navebar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(125, 208, 247);
+}
+.rect {
+  animation-name: rainbow;
+  animation-duration: 5s;
+}
+@keyframes rainbow{
+  0%{
+    background-color: rgb(45, 84, 128);
+  }
+  25%{
+    background-color: rgb(66, 38, 117);
+  }
+  50%{
+    background-color: rgb(45, 112, 143);
+  }
+  75%{
+    background-color: rgb(46, 46, 136);
+  }
+  100%{
+    background-color: rgb(38, 117, 38);
+  }
+}
 
 .dropdown {
   float: left;
@@ -46,11 +70,6 @@ body, html {
   font-family: inherit;
   margin: 0;
 }
-
-.navebar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(125, 208, 247);
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
