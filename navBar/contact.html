@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Contact file</title>
-	<link href="labs/img/favicon.jpg" rel="icon" type="image/jpg"/>
-  <link href="contact.css" rel="stylesheet" type="text/css" />
+	<link href="labs/img/favicon.jpg" rel="icon" type="image/jpg" />
+	<link href="contact.css" rel="stylesheet" type="text/css" />
+  <script>
+    function checkdata(){
+      var firstname = document.getElementById("fname");
+      var lastname = document.getElementById("lname");
+      var zipcode = document.getElementById("zipcode");
+      var emailid = document.getElementById("email");
+
+      if(firstname.value == ""){
+        alert("Please enter the name");
+        firstname.focus();
+        return false;
+      }
+      if(lastname.value == ""){
+        alert("Please enter the name");
+        lastname.focus();
+        return false;
+      }
+      if(zipcode.value == ""){
+        alert("Please enter the zipcode");
+        zipcode.focus();
+        return false;
+      } 
+      if(emailid.value == ""){
+        alert("Please enter the email");
+        emailid.focus();
+        return false;
+      }   
+      alert("Form validation is successful.")
+      return true;
+      }
+</script>
 </head>
+
 <body>
 
-<h1>Contact Form</h1>
+	<h1>Enter Your contact Details:</h1>
 
-<div class="containers">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
+	<div class="containers">
+		<form form id="form1" onsubmit="return checkdata()">
+		<label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
@@ -27,11 +60,16 @@
       <option value="italy">Italy</option>
       <option value="belgum">Belgum</option>
     </select>
+    <label for="zipcode">Zipcode :</label>
+    <input type="text" id="zipcode" name="zipcode">
+    <label for="email">E-mail ID :</label>
+    <input type="text" id="email" name="email">
 
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input id="submit" type="submit" value="Submit">  
+    <input type="submit" value="Submit" id="submit">
+    <input type="submit" value="Reset" id="Reset"> 
   </form>  
 </div>  
 </body>

@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 body, html {
+  animation-name: rainbowfont;
+  animation-duration: 10s;
   height: 100%;
   margin: 0;
   background-image: url("img/newpic.jpg");
@@ -9,6 +11,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+@keyframes rainbowfont{
+  50%{
+    background-image: url("img/fond_img.jpg");
+  }
 }
 .container {
   position: absolute;
@@ -35,23 +42,14 @@ body, html {
 }
 .rect {
   animation-name: rainbow;
-  animation-duration: 5s;
+  animation-duration: 10s;
 }
 @keyframes rainbow{
   0%{
-    background-color: rgb(45, 84, 128);
-  }
-  25%{
-    background-color: rgb(66, 38, 117);
-  }
-  50%{
-    background-color: rgb(45, 112, 143);
-  }
-  75%{
-    background-color: rgb(46, 46, 136);
+    background-color:transparent;
   }
   100%{
-    background-color: rgb(38, 117, 38);
+    background-color: rgb(33, 107, 168);
   }
 }
 
@@ -186,6 +184,7 @@ h2 {
   font-family: cursive;
   font-size: 20px;
 }
+
 p.max {
   font-size: 25px;
   margin-top: 30%;
@@ -194,4 +193,4 @@ p.max {
 img {
   border-radius: 30%;
 }
-}
+
